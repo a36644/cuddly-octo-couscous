@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(44, 57, 57);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+.notification {
+    box-sizing: border-box;
+    width: 400px;
+    margin: auto;
+    transform: translateY(90%);
+    padding-top: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.icon {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background-color: rgb(239, 97, 97);
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.icon i {
+   width: 100%;
+}
+
+.title-err {
+    color: rgb(239, 97, 97);
+    font-weight: 600;
+    cursor: default;
+}
+
+.title-sc {
+    color: rgb(76, 207, 39);
+    font-weight: 600;
+    cursor: default;
+}
+
+.msg {
+    font-size: 13px;
+    color: #6d6d6d;
+    margin-bottom: 40px;
+    padding: 0 30px;
+    cursor: default;
+}
+
+.ctr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ctr a {
+    flex: 1;
+    border: none;
+}
+
+.ctr button {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    color: #fff;
+}
+.ctr button:hover {
+    opacity: 1;
+}
+.brg-sc {
+    background-color: rgb(76, 207, 39);
+}
+.brg-err{
+    background-color: rgb(220, 88, 88);
+}

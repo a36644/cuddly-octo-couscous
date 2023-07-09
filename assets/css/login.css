@@ -1,0 +1,27 @@
+.bgr {
+    background-image: url('https://down-vn.img.susercontent.com/file/sg-11134004-7qvfs-li8l0z0kfskvd4');
+    background-color: rgb(255, 235, 225);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.dvao {
+    flex-direction: column;
+    margin-left: 40px;
+    height: 660px;
+}
+
+.login {
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.auth-form-login {
+    background-color: #fff;
+    border-radius: 5px;
+    height: max-content;
+}
